@@ -9,7 +9,7 @@
 // @updateURL	 https://github.com/DreamNya/Bilibili-video-History/raw/main/Bilibili-video-History.user.js
 // @match        https://www.bilibili.com/video/*
 // @match        https://www.bilibili.com/v/*
-// @match        https://ytybilibili.com/*
+// @match        https://t.bilibili.com/*
 // @match        https://space.bilibili.com/*
 // @match        https://www.bilibili.com
 // @match        https://www.bilibili.com/?*
