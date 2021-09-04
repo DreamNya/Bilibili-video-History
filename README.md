@@ -55,17 +55,5 @@ Bilibili视频观看历史记录提示脚本
 <img src="./img/8.png" width=50% height=50% alt="稍后观看">
 <img src="./img/7.png" width=50% height=50% alt="历史记录">
 
-## 已知问题：
-水平有限，至今未弄懂bilibili视频页内相关视频跳转是怎么做到的"无损"跳转的，故通过相关视频跳转后的页面不刷新脚本直接记录可能存在bug
-
-(未公开的初版脚本仅记录了观看类型并未记录观看百分比等其他内容，由于数据过多，作者不想放弃，为了兼容旧版数据，故存在一些公开发布版本用不到的代码，以后有空再优化。)
-
-## 更新计划：
-增加脚本可视化操作面板，开放部分自定义设置功能，开放历史记录列表（目前仅能从Tampermonkey脚本-存储中手动查看）
-
-优化顶部导航栏中收藏、历史
-
-## 更新记录：
-v1.0(2021-8-28):
-
-a.首次公开发布
+## 已知问题\更新计划\更新记录：
+详情查看[Bilibili-video-History.user.js](https://github.com/DreamNya/Bilibili-video-History/blob/main/Bilibili-video-History.user.js)
