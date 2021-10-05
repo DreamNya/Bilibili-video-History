@@ -166,14 +166,17 @@ a.首次公开发布
                         href_p.unshift(href[i])
                     }else if(href_p.length>0){
                         text=GM_getValue(href_p[0])
-                    }else{
-                        return
                     }
-                    let 状态=text[0]
-                    let 百分比=text[2] || ""
-                    let 时间=text[3]
-                    let 文本=href_p.length>1 ? "已记录 多P" : 状态+百分比
-
+                    let 状态
+                    let 百分比
+                    let 时间
+                    let 文本
+                    if(text){
+                        状态=text[0]
+                        百分比=text[2] || ""
+                        时间=text[3]
+                        文本=href_p.length>1 ? "已记录 多P" : 状态+百分比
+                    }
                     if($(this).prev().css("z-index")==108){
                         if($(this).prev().text()!=文本){
                             $(this).prev().remove()
@@ -319,7 +322,7 @@ a.首次公开发布
             }else{
                 时长=``
             BV号=BV号+"&#10;右键单击删除视频记录信息"
-                }
+            }
             if (BV时间){
                 BV时间=`<p style="margin:0 10px 5px 10px">${BV时间.split(" ")[0]}<br>${BV时间.split(" ")[1]}</p>`
         }else{
